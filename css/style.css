@@ -1073,32 +1073,35 @@ ul.sidebar-gallery {
 	portfolio
 ============================ */
 .recent-work-wrap {
-  position: relative;
+
+  height: 200px;
+  width: 350px;
 }
 
 .recent-work-wrap img{
-  width: 100%;
+  width: 300px;
+  height: 200px;
 }
 
-.recent-work-wrap .recent-work-inner{
+/* .recent-work-wrap .recent-work-inner{
   top: 0;
   background: transparent;
   opacity: .8;
   width: 100%;
   border-radius: 0;
   margin-bottom: 0;
-}
+} */
 
-.recent-work-wrap .recent-work-inner h3{
+/* .recent-work-wrap .recent-work-inner h3{
   margin: 10px 0;
 }
 
 .recent-work-wrap .recent-work-inner h3 a{
   font-size: 24px;
   color: #fff;
-}
+} */
 
-.recent-work-wrap .overlay {
+/* .recent-work-wrap .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1114,9 +1117,9 @@ ul.sidebar-gallery {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;  
   padding: 30px;
-}
+} */
 
-.recent-work-wrap .overlay .preview {
+/* .recent-work-wrap .overlay .preview {
   bottom: 0;
   display: inline-block;
   height: 35px;
@@ -1129,7 +1132,7 @@ ul.sidebar-gallery {
 
 .recent-work-wrap:hover .overlay {
   opacity: 1;
-}
+} */
 
 #portfolio {
   margin-top: 50px;
@@ -1299,6 +1302,168 @@ textarea.form-control {
 	border-color:#ddd;
 	border-radius:0;
 }
+    /* General Styling */
+    .container2 {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+  }
+
+  /* Title Styling */
+  .titlep {
+      font-size: 28px;
+      font-weight: bold;
+      color: #007bff;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  /* Subtitle */
+  .subtitlep {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      margin-bottom: 15px;
+  }
+
+  /* Content Box */
+  .contentp {
+      font-size: 16px;
+      color: #555;
+      text-align: justify;
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Section Title */
+  .section-titlep {
+      font-size: 18px;
+      font-weight: bold;
+      color: #007bff;
+      margin-top: 20px;
+      text-transform: uppercase;
+  }
+
+  /* List Styling */
+  .ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  .li {
+      padding: 8px 0;
+      font-size: 16px;
+      color: #444;
+  }
+
+  .li::before {
+      content: "✔️ ";
+      color: #28a745;
+      font-weight: bold;
+  }
+
+  /* Table Styling */
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 16px;
+      text-align: left;
+  }
+
+  th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+  }
+
+  th {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+  }
+
+  td {
+      background-color: #f9f9f9;
+  }
+
+  /* Mission Statement */
+  .mission {
+      font-size: 18px;
+      font-weight: bold;
+      color: #222;
+      text-align: center;
+      padding: 15px;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+.tables {
+  color: #000;
+}
+
+    .portfolio-item {
+        margin-bottom: 20px; 
+        padding: 10px; 
+        background-color: #f9f9f9;
+        border-radius: 8px;
+    }
+
+    .gallery img {
+      width: 200px;
+      margin: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      border-radius: 5px;
+  }
+
+  .recent-work-wrap img:hover {
+      opacity: 0.5;
+  }
+
+  /* Lightbox Background */
+  .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  /* Lightbox Image */
+  .lightbox img {
+      max-width: 90%;
+      max-height: 70%;
+      border-radius: 5px;
+  }
+
+  /* Caption Text */
+  .caption {
+      color: white;
+      margin-top: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  /* Close Button */
+  .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+  }
 
 /*===========================
 	footer
@@ -1489,4 +1654,10 @@ ul hr {
 .footer {
   overflow: hidden;
 }
+
+
+
+
+
+
 
